@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eb9f7f;
+}
+.container{
+    width: 100%;
+    padding:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.container .personal_name h2{
+    font-size:40px;
+    font-weight:bold;
+    text-transform:uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+.container .personal_name h2 span{
+    font-size:30px;
+    font-weight:bold;
+    text-transform:capitalize;
+    text-align: center;
+    color: darkmagenta;
+}
+.container .textdiaplay{
+    width: 100%;
+    height:300px;
+    margin:20px;
+    padding:20px;
+    text-overflow:auto;
+    background-color:transparent;
+    box-shadow:0 4px 16px rgb(0 0 0/10%);
+    border-radius:10px;
+}
+.container .textdiaplay p{
+    font-size:20px;
+    color:rgb(255, 251, 251);
+    text-transform:capitalize;
+    cursor: pointer;
+    font-weight:bold;
+    word-wrap: break-word;
+}
+.container button{
+    padding:10px 20px;
+    outline:none;
+    border:none;
+    border-radius: 3px;
+    background-color:transparent;
+    box-shadow:0 4px 16px rgb(0 0 0/10%);
+    cursor:pointer;
+    margin:10px 0px;
+    color:rgb(255, 251, 251);
+    font-size:18px;
+    font-weight:bold;
+}
+.container .textarea{
+    width:100%;
+    color:rgb(255, 255, 255);
+}
+.container .textarea textarea{
+    width:100%;
+    height:300px;
+    padding:20px;
+    background-color:transparent;
+    box-shadow:0 4px 16px rgb(0 0 0/10%);
+    border-radius:10px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    font-size:20px;
+    color:rgb(255, 251, 251);
+    font-weight:bold;
+}
+@media(max-width:500px){
+    .container{
+        padding:10px;
+    }
+}
